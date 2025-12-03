@@ -1,0 +1,9 @@
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 15
+confirm-close-surface=false
+
+background-blur-radius = 20
+#background-opacity = 0.7
+theme = catppuccin-mocha.conf
+
+# theme = "gruvbox-dark"
