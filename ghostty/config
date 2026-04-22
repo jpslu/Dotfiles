@@ -1,9 +1,22 @@
 font-family = JetBrainsMono Nerd Font Mono
-font-size = 15
+font-size = 17
 confirm-close-surface=false
 
 #background-blur-radius = 20
-#background-opacity = 0.7
-theme = catppuccin-mocha.conf
+background-opacity = 0.3
+background-blur = macos-glass-regular
 
-# theme = "gruvbox-dark"
+theme = Gruvbox Dark
+#theme = light:Gruvbox Light,dark:Gruvbox Dark
+#theme = catppuccin-mocha.conf
+
+#icon options: 
+#    official - Use the official Ghostty icon.
+#    blueprint, chalkboard, microchip, glass, holographic, paper, retro, xray - Official variants of the Ghostty icon hand-created by artists (no AI).
+#    custom - Use a completely custom icon. The location must be specified using the additional macos-custom-icon configuration
+#    custom-style - Use the official Ghostty icon but with custom styles applied to various layers. The custom styles must be
+#                   specified using the additional macos-icon-prefixed configurations. The macos-icon-ghost-color and macos-icon-screen-color
+#                   configurations are required for this style.
+macos-icon = official
+
+auto-update = download

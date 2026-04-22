@@ -1,5 +1,5 @@
 [mgr]
 # show_hidden -> show hidden files by default or make it togglable with "."
-show_hidden = false
+show_hidden = true
 [flavor]
 dark = "gruvbox-dark"

@@ -1,12 +1,13 @@
--- stylua: ignore
-if true then return {} end
-
+if true then
+  return {}
+end
 return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000,
     opts = {
+      CursorLine = { bg = "NONE", underline = true },
       transparent_background = true,
       integrations = {
         -- If you want the sidebars/popups to be transparent as well:

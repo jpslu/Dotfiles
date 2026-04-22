@@ -1,6 +1,5 @@
 -- stylua: ignore
-if true then return {}
-end
+if true then return {} end
 return {
   { "ellisonleao/gruvbox.nvim" },
   {
