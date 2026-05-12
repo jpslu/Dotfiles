@@ -1,12 +1,12 @@
-if true then
-  return {}
-end
+--stylua: ignore
+if true then return {} end
 return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000,
     opts = {
+      flavour = "macchiato",
       CursorLine = { bg = "NONE", underline = true },
       transparent_background = true,
       integrations = {
@@ -36,6 +36,12 @@ return {
           indentscope_color = "",
         },
       },
+    },
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin-nvim",
     },
   },
 }
