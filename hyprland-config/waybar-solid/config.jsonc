@@ -76,13 +76,19 @@
   },
 
   "network": {
-    "format-wifi": "󰤢",
+    "format-wifi": "{icon}",
     "format-ethernet": "󰈀 ",
-    "format-disconnected": "󰤠 ",
+    "format-disconnected": "󰤭",
     "interval": 5,
     "tooltip-format": "{essid} ({signalStrength}%)",
-    "on-click": "nm-connection-editor"
-
+    "on-click": "nm-connection-editor",
+    "format-icons": [
+        "󰤯", // Weakest signal (0-20%)
+        "󰤟", // Low signal (21-40%)
+        "󰤢", // Medium signal (41-60%)
+        "󰤥", // Strong signal (61-80%)
+        "󰤨"  // Excellent signal (81-100%)
+    ]
  },
 
   "memory": {
@@ -91,12 +97,6 @@
     "tooltip-format": "Memory"
   },
 
-  "backlight": {
-        "format": "{icon}  {percent}%",
-        "format-icons": ["","󰃜", "󰃛", "󰃞","󰃝","󰃟","󰃠"],
-        "tooltip": false
-  },
-  
   "pulseaudio": {
       "states": {
         "maxed": 100,
