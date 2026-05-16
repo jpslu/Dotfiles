@@ -79,7 +79,7 @@
 /* --- Center Module (Individual, Fully Rounded Block - With Simple Hover) --- */
 #clock {
   background-color: transparent;
-  padding: 0.3rem 0.7rem;
+  padding: 5px 8px;
 /*  margin: 5px 0px;*/
   border-radius: 6px; /* This module is always rounded */
   min-width: 0;
